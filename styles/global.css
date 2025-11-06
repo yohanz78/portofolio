@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+:root {
+    --primary-color: #002626;
+    --secondary-color: #0E4749;
+    --accent-color: #FEEA00;
+    --text-color-primary: #DBDBDB;
+    --text-color-secondary: #D1D1D1;
+    --hover-color: rgb(0, 20, 13);
+}
+
+.container {
+    margin: auto;
+    padding: 50px;
+}
+
