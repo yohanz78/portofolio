@@ -46,6 +46,13 @@ nav {
     color: var(--text-color-primary);
 }
 
+.hero-description p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-color-secondary);
+    max-width: 600px;
+}
+
 .hero-header .highlight {
     color: var(--accent-color);
 }
@@ -54,4 +61,10 @@ nav {
     font-size: 14px;
     font-weight: 400;
     color: var(--text-color-secondary);
+}
+
+.title-section {
+    text-align: center;
+    margin: 50px 0 40px 0;
+    font-size: 40px;
 }
