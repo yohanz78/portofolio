@@ -1,3 +1,4 @@
+/* Navigation bar */
 nav {
     background-color: var(--primary-color);
     padding: 20px;
@@ -27,44 +28,27 @@ nav {
     border-radius: 10px;
 }
 
-.hero {
-    background-color: var(--primary-color);
-}
-
+/* Hero Section */
 .hero-content {
-    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
 }
 
-.hero-header {
-    margin: auto;
-    padding: 0 0 20px 0;
-}
-
-.hero-header p {
-    font-size: 48px;
-    font-weight: 700;
+.hero-header h1 {
+    font-size: 52px;
+    margin-bottom: 20px;
     color: var(--text-color-primary);
 }
 
 .hero-description p {
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--text-color-secondary);
-    max-width: 600px;
-}
-
-.hero-header .highlight {
-    color: var(--accent-color);
-}
-
-.hero-subheader p {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 18px;
     color: var(--text-color-secondary);
 }
 
-.title-section {
-    text-align: center;
-    margin: 50px 0 40px 0;
-    font-size: 40px;
+.hero-cta {
+    margin-top: 30px;
 }
